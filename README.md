@@ -12,7 +12,7 @@ Automatically creates a cinematic wallpaper from your latest logged films on Let
 ✔ Perfect for movie lovers 🎥
 
 🖼 Example Output
-https://github.com/lakshyadn/Movie-Wallpaper-Generator/blob/30cc4fe21d2f444df746f3bb25d30f7e7e30d19e/movie_wallpaper_brick.jpg
+(https://github.com/lakshyadn/Movie-Wallpaper-Generator/blob/30cc4fe21d2f444df746f3bb25d30f7e7e30d19e/movie_wallpaper_brick.jpg)
 
 🚀 Installation
 1. Clone repo
