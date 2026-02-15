@@ -1,54 +1,161 @@
-#🎬 Letterboxd Wallpaper Generator
+# 🎬 Letterboxd Wallpaper Generator
 
-Automatically create a cinematic wallpaper collage from the latest films you log on Letterboxd.
+Create cinematic desktop wallpapers from your latest Letterboxd watches.
 
-This script fetches your recent watches, downloads poster images, and builds a high-quality brick-style staggered wallpaper perfect for desktop backgrounds.
+---
 
-##✨ Features
+## ✨ What This Does
 
-✔ Fetches latest watched films
-✔ Downloads high-quality posters
-✔ Brick-style staggered layout
-✔ Dark cinematic background
-✔ Auto-sets wallpaper (Windows)
-✔ Perfect for movie lovers 🎥
+This script automatically:
 
-##🖼 Example Output:
-![Example Image](movie_wallpaper_brick.jpg)
+* 🎬 Fetches your latest logged films from Letterboxd
+* 🖼 Downloads high-quality poster images
+* 🧱 Builds a cinematic **brick-style collage**
+* 🌑 Applies a dark aesthetic background
+* 🖥 Sets it as your desktop wallpaper
 
-##🚀 Installation
-1. Clone repo
+---
+
+## 🖼 Example Output
+
+![OutputImage](movie_wallpaper_brick.jpg)
+
+---
+
+## 🚀 Installation
+
+### 1️⃣ Clone the repo
+
+```bash
 git clone https://github.com/YOUR-USERNAME/letterboxd-wallpaper.git
 cd letterboxd-wallpaper
+```
 
-2. Install dependencies
+### 2️⃣ Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-##⚙️ Usage
+---
 
-Edit username in:
-USERNAME = "your_username"
+## ⚙️ Usage
 
-##🧱 Layout Style
+### 🔧 Step 1 — Add your Letterboxd username
 
-The wallpaper uses a brick staggered layout to create a cinematic collage effect.
+Open the script and edit:
 
-🛠 Requirements
+```python
+USERNAME = "your_letterboxd_username"
+```
 
-Python 3.8+
+### ▶ Step 2 — Run the script
 
-Windows (for auto wallpaper set)
+```bash
+python wallpaper.py
+```
 
-💡 Future Improvements
+---
 
-IMDB support
+## 🖥 Result
 
-Animated wallpaper
+✔ Wallpaper generated
+✔ Saved in project folder
+✔ Automatically set as desktop wallpaper (Windows)
 
-Movie title overlay
+---
 
-Blur background mode
+## 🧱 Layout Style
 
-❤️ Author
+The collage uses a **brick staggered layout** for a cinematic look:
 
-Lakshya Deewan
+```
+[]    []
+[] [] [] []
+[] [] [] []
+[] [] [] []
+   []    []
+```
+
+✔ No empty space
+✔ No rigid grid
+✔ Natural poster flow
+
+---
+
+## 🛠 Requirements
+
+* Python 3.8+
+* Windows OS (for auto wallpaper setting)
+* Internet connection
+
+---
+
+## 📦 Dependencies
+
+* feedparser
+* requests
+* Pillow
+
+Install manually if needed:
+
+```bash
+pip install feedparser requests pillow
+```
+
+---
+
+## 🎨 Customization
+
+You can easily modify:
+
+* number of movies fetched
+* poster resolution
+* background color
+* collage layout
+* output filename
+
+---
+
+## 🧠 How It Works
+
+1. Reads your Letterboxd RSS feed
+2. Extracts poster images
+3. Downloads high-resolution posters
+4. Builds a staggered collage
+5. Saves & sets wallpaper
+
+---
+
+## 🔮 Future Ideas
+
+* IMDb support
+* Movie title overlays
+* Netflix-style UI layout
+* Blur background aesthetic
+* Daily auto-update wallpaper
+* Animated slideshow mode
+
+---
+
+## ❤️ Author
+
+**Lakshya Deewan**
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repo
+* 🍿 Share with movie lovers
+* 🛠 Contribute improvements
+
+---
+
+## 📜 License
+
+MIT License — free to use and modify.
+
+---
