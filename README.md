@@ -12,7 +12,7 @@ Automatically creates a cinematic wallpaper from your latest logged films on Let
 ✔ Perfect for movie lovers 🎥
 
 🖼 Example Output:
-(movie_wallpaper_brick.jpg)
+![Example Image](movie_wallpaper_brick.jpg)
 
 🚀 Installation
 1. Clone repo
