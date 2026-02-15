@@ -1,8 +1,10 @@
-🎬 Letterboxd Wallpaper Generator
+#🎬 Letterboxd Wallpaper Generator
 
-Automatically creates a cinematic wallpaper from your latest logged films on Letterboxd.
+Automatically create a cinematic wallpaper collage from the latest films you log on Letterboxd.
 
-✨ Features
+This script fetches your recent watches, downloads poster images, and builds a high-quality brick-style staggered wallpaper perfect for desktop backgrounds.
+
+##✨ Features
 
 ✔ Fetches latest watched films
 ✔ Downloads high-quality posters
@@ -11,10 +13,10 @@ Automatically creates a cinematic wallpaper from your latest logged films on Let
 ✔ Auto-sets wallpaper (Windows)
 ✔ Perfect for movie lovers 🎥
 
-🖼 Example Output:
+##🖼 Example Output:
 ![Example Image](movie_wallpaper_brick.jpg)
 
-🚀 Installation
+##🚀 Installation
 1. Clone repo
 git clone https://github.com/YOUR-USERNAME/letterboxd-wallpaper.git
 cd letterboxd-wallpaper
@@ -22,12 +24,12 @@ cd letterboxd-wallpaper
 2. Install dependencies
 pip install -r requirements.txt
 
-⚙️ Usage
+##⚙️ Usage
 
 Edit username in:
 USERNAME = "your_username"
 
-🧱 Layout Style
+##🧱 Layout Style
 
 The wallpaper uses a brick staggered layout to create a cinematic collage effect.
 
