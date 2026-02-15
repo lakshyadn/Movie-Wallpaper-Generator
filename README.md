@@ -11,8 +11,8 @@ Automatically creates a cinematic wallpaper from your latest logged films on Let
 ✔ Auto-sets wallpaper (Windows)
 ✔ Perfect for movie lovers 🎥
 
-🖼 Example Output
-movie_wallpaper_brick.jpg
+🖼 Example Output:
+(movie_wallpaper_brick.jpg)
 
 🚀 Installation
 1. Clone repo
